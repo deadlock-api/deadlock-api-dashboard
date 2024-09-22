@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    background: #111217 url("assets/background.svg") no-repeat fixed left top;
+    background-size: 100vw 100vh;
+    color: white;
+}
+
+header {
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 40px;
+
+    a.feature {
+        color: white;
+        text-decoration: none;
+
+        div {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 1rem;
+            border-radius: 1rem;
+            background: rgba(0, 0, 0, 0.5);
+            backdrop-filter: blur(5px);
+            box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.5);
+            transition: all 0.3s;
+            text-align: center;
+            text-wrap: balance;
+            height: 250px;
+            width: 350px;
+
+            &:hover {
+                transform: scale(1.05);
+                box-shadow: 0 0 1rem 0 #fa4454;
+            }
+
+            h2 {
+                margin: 0.5rem 0;
+            }
+
+            p {
+                margin: 0.5rem 0;
+            }
+        }
+    }
+}
