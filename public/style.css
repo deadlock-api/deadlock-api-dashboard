@@ -7,9 +7,7 @@ body {
 
 header {
     text-align: center;
-    position: absolute;
-    top: 0;
-    left: 0;
+    height: 20vh;
     width: 100vw;
 }
 
@@ -18,8 +16,8 @@ main {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    height: 100vh;
     gap: 40px;
+    width: 100%;
 
     a.feature {
         color: white;
@@ -34,12 +32,12 @@ main {
             border-radius: 1rem;
             background: rgba(0, 0, 0, 0.5);
             backdrop-filter: blur(5px);
-            box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.5);
+            box-shadow: 0 0 0.5rem 0 rgba(255, 255, 255, 0.5);
             transition: all 0.3s;
             text-align: center;
             text-wrap: balance;
-            height: 250px;
-            width: 350px;
+            height: min(25vh, 250px);
+            width: min(70vw, 350px);
 
             &:hover {
                 transform: scale(1.05);
