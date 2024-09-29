@@ -54,3 +54,47 @@ main {
         }
     }
 }
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: calc(100vw - 2rem);
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 0.4rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    align-items: center;
+
+    p#policy {
+        max-width: 800px;
+    }
+
+    a button {
+        background: #fa4454;
+        border: 0.2rem solid #fa4454;
+        padding: 0.5rem;
+        border-radius: 1rem;
+        color: white;
+        font-size: 15px;
+        text-wrap: nowrap;
+        cursor: pointer;
+        transition: all 0.3s;
+
+        &:hover {
+            background: white;
+            color: black;
+        }
+
+        img {
+            vertical-align: middle;
+        }
+    }
+}
+
+@media (max-width: 908px) {
+    footer {
+        visibility: hidden;
+        display: none;
+    }
+}
