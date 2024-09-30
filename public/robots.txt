@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://deadlock-api.com/sitemap.xml
