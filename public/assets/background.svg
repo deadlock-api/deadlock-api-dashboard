@@ -5,15 +5,18 @@
         <path d="M62 1080L1142 0L1544 0L464 1080z" fill="url(#SvgjsLinearGradient1042)"></path>
         <path d="M684.6 1080L1764.6 0L2594.1 0L1514.1 1080z" fill="url(#SvgjsLinearGradient1042)"></path>
         <path d="M1832 1080L752 0L453.5 0L1533.5 1080z" fill="url(#SvgjsLinearGradient1043)"></path>
-        <path d="M1212.4 1080L132.4000000000001 0L-161.5999999999999 0L918.4000000000001 1080z" fill="url(#SvgjsLinearGradient1043)"></path>
-        <path d="M870.0350095776344 1080L1920 30.035009577634355L1920 1080z" fill="url(#SvgjsLinearGradient1042)"></path>
+        <path d="M1212.4 1080L132.4000000000001 0L-161.5999999999999 0L918.4000000000001 1080z"
+              fill="url(#SvgjsLinearGradient1043)"></path>
+        <path d="M870.0350095776344 1080L1920 30.035009577634355L1920 1080z"
+              fill="url(#SvgjsLinearGradient1042)"></path>
         <path d="M0 1080L1049.9649904223656 1080L 0 30.035009577634355z" fill="url(#SvgjsLinearGradient1043)"></path>
     </g>
     <defs>
         <mask id="SvgjsMask1040">
             <rect width="1920" height="1080" fill="#ffffff"></rect>
         </mask>
-        <linearGradient x1="10.94%" y1="-19.44%" x2="89.06%" y2="119.44%" gradientUnits="userSpaceOnUse" id="SvgjsLinearGradient1041">
+        <linearGradient x1="10.94%" y1="-19.44%" x2="89.06%" y2="119.44%" gradientUnits="userSpaceOnUse"
+                        id="SvgjsLinearGradient1041">
             <stop stop-color="rgba(43, 44, 44, 1)" offset="0"></stop>
             <stop stop-color="rgba(0, 0, 0, 1)" offset="1"></stop>
         </linearGradient>
