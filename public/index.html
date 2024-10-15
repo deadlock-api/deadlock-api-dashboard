@@ -17,27 +17,86 @@
 <body>
 <header><h1>Deadlock API</h1></header>
 <main>
-    <a href="https://assets.deadlock-api.com/" title="Deadlock Assets API" class="feature">
+    <div>
+        <a href="https://assets.deadlock-api.com/" title="Deadlock Assets API" class="feature">
+            <div>
+                <img src="assets/gallery.svg" alt="Gallery Icon" width="80" height="80">
+                <h2>Deadlock Assets API</h2>
+                <p>Images & Stats of heroes, items, weapons, abilities, and much more.</p>
+            </div>
+        </a>
+        <br>
         <div>
-            <img src="assets/gallery.svg" alt="Gallery Icon" width="80" height="80">
-            <h2>Deadlock Assets API</h2>
-            <p>Images & Stats of heroes, items, weapons, abilities, and much more.</p>
+            <a href="https://assets.deadlock-api.com/" title="Deadlock Assets API">
+                <button>
+                    <img src="assets/swagger.svg" alt="Key Icon" width="25" height="25">
+                    Swagger Docs
+                </button>
+            </a>
+            <a href="https://github.com/raimannma/deadlock-assets-api" title="Github" target="_blank">
+                <button>
+                    <img src="assets/github.svg" alt="GitHub Icon" width="25" height="25">
+                    GitHub Repository
+                </button>
+            </a>
         </div>
-    </a>
-    <a href="https://data.deadlock-api.com/" title="Deadlock Data API" class="feature">
+    </div>
+    <div>
+        <a href="https://data.deadlock-api.com/" title="Deadlock Data API" class="feature">
+            <div>
+                <img src="assets/database.svg" alt="Database Icon" width="80" height="80">
+                <h2>Deadlock Data API</h2>
+                <p>Game data like active matches and builds</p>
+            </div>
+        </a>
+        <br>
         <div>
-            <img src="assets/database.svg" alt="Database Icon" width="80" height="80">
-            <h2>Deadlock Data API</h2>
-            <p>Game data like active matches and builds</p>
+            <a href="https://data.deadlock-api.com/" title="Deadlock Data API">
+                <button>
+                    <img src="assets/swagger.svg" alt="Key Icon" width="25" height="25">
+                    Swagger Docs
+                </button>
+            </a>
+            <a href="https://discord.gg/XMF9Xrgfqu" title="Request API-Key" target="_blank">
+                <button>
+                    <img src="assets/key.svg" alt="Key Icon" width="25" height="25">
+                    Request an API-Key
+                </button>
+            </a>
+            <p class="note">
+                <span class="highlight">Not required</span>, but may change<br>
+                For future-proofing, you can request an API-Key.
+            </p>
         </div>
-    </a>
-    <a href="https://analytics.deadlock-api.com/" title="Deadlock Analytics API" class="feature">
+    </div>
+    <div>
+        <a href="https://analytics.deadlock-api.com/" title="Deadlock Analytics API" class="feature">
+            <div>
+                <img src="assets/query_stats.svg" alt="Analytics Icon" width="80" height="80">
+                <h2>Deadlock Analytics API</h2>
+                <p>Analytics & Statistics, including match, player, hero and item statistics.</p>
+            </div>
+        </a>
+        <br>
         <div>
-            <img src="assets/query_stats.svg" alt="Analytics Icon" width="80" height="80">
-            <h2>Deadlock Analytics API</h2>
-            <p>Analytics & Statistics, including match, player, hero and item statistics.</p>
+            <a href="https://analytics.deadlock-api.com/" title="Deadlock Analytics API">
+                <button>
+                    <img src="assets/swagger.svg" alt="Key Icon" width="25" height="25">
+                    Swagger Docs
+                </button>
+            </a>
+            <a href="https://discord.gg/XMF9Xrgfqu" title="Request API-Key" target="_blank">
+                <button>
+                    <img src="assets/key.svg" alt="Key Icon" width="25" height="25">
+                    Request an API-Key
+                </button>
+            </a>
+            <p class="note">
+                <span class="highlight">Not required</span>, but may change<br>
+                For future-proofing, you can request an API-Key.
+            </p>
         </div>
-    </a>
+    </div>
 </main>
 <footer>
     <p id="policy">
@@ -45,24 +104,32 @@
         officially involved in producing or managing Valve properties. Valve and all associated properties are
         trademarks or registered trademarks of Valve Corporation
     </p>
-    <a href="https://www.patreon.com/user?u=68961896" title="Patreon" target="_blank">
-        <button>
-            <img src="assets/patreon.svg" alt="Patreon Icon" width="25" height="25">
-            Support via Patreon
-        </button>
-    </a>
-    <a href="https://discord.gg/rs23RCNqjt" title="Discord" target="_blank">
-        <button>
-            <img src="assets/discord.svg" alt="Discord Icon" width="25" height="25">
-            Join Developer Discord
-        </button>
-    </a>
-    <a href="https://stats.uptimerobot.com/V1HIfGQT77" title="Status" target="_blank">
-        <button>
-            <img src="assets/status.svg" alt="Patreon Icon" width="25" height="25">
-            Status
-        </button>
-    </a>
+    <div id="footer-links">
+        <a href="https://www.patreon.com/user?u=68961896" title="Patreon" target="_blank">
+            <button>
+                <img src="assets/patreon.svg" alt="Patreon Icon" width="25" height="25">
+                Support via Patreon
+            </button>
+        </a>
+        <a href="https://discord.gg/XMF9Xrgfqu" title="Discord" target="_blank">
+            <button>
+                <img src="assets/discord.svg" alt="Discord Icon" width="25" height="25" class="no-invert">
+                API Discord
+            </button>
+        </a>
+        <a href="https://discord.gg/rs23RCNqjt" title="Discord" target="_blank">
+            <button>
+                <img src="assets/discord.svg" alt="Discord Icon" width="25" height="25" class="no-invert">
+                Developer Community Discord
+            </button>
+        </a>
+        <a href="https://stats.uptimerobot.com/V1HIfGQT77" title="Status" target="_blank">
+            <button>
+                <img src="assets/status.svg" alt="Status Icon" width="25" height="25">
+                Status
+            </button>
+        </a>
+    </div>
 </footer>
 </body>
 </html>
