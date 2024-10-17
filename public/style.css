@@ -27,7 +27,8 @@ main {
             justify-content: space-around;
             flex-direction: column;
             width: 100%;
-            p{
+
+            p {
                 margin: 0 auto;
             }
         }
@@ -136,12 +137,12 @@ a.disabled-link {
     }
 }
 
-.highlight{
+.highlight {
     color: #fa4454;
     font-weight: bolder;
 }
 
-.note{
+.note {
     text-wrap: wrap;
     text-align: center;
     text-overflow: ellipsis;
