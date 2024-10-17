@@ -3,20 +3,29 @@ body {
     background: #111217 url("assets/background.svg") no-repeat fixed left top;
     background-size: 100vw 100vh;
     color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    gap: 40px;
 }
 
 header {
     text-align: center;
-    height: 20vh;
-    width: 100vw;
+    height: 10vh;
+}
+
+* {
+    box-sizing: border-box;
 }
 
 main {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
     justify-content: center;
-    gap: 40px;
-    width: 100%;
+    gap: 60px;
+    width: 90%;
+    margin: 0 auto;
 
     > div {
         text-align: center;
@@ -72,15 +81,15 @@ main {
 }
 
 footer {
-    position: fixed;
+    position: relative;
     bottom: 0;
     width: calc(100vw - 2rem);
     display: flex;
     flex-wrap: nowrap;
     gap: 0.4rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    align-items: center;
+    height: 20vh;
+    align-items: end;
+    margin-bottom: 20px;
 
     p#policy {
         max-width: 800px;
@@ -130,7 +139,7 @@ a.disabled-link {
     }
 }
 
-@media (max-width: 908px) {
+@media (max-width: 450px) {
     footer {
         visibility: hidden;
         display: none;
