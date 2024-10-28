@@ -21,7 +21,7 @@ header {
 
 main {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(550px, 1fr));
     justify-content: center;
     gap: 60px;
     width: 90%;
@@ -93,6 +93,7 @@ footer {
 
     p#policy {
         max-width: 800px;
+        margin-left: 10px;
     }
 
     div#footer-links {
@@ -152,7 +153,12 @@ a.disabled-link {
 }
 
 .note {
-    text-wrap: wrap;
+    text-wrap: balance;
     text-align: center;
     text-overflow: ellipsis;
+    max-width: 450px;
+
+    a{
+        text-decoration: none;
+    }
 }
