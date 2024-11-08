@@ -5,8 +5,6 @@
     <title>Deadlock API</title>
 
     <link href="style.css" rel="stylesheet">
-    <meta http-equiv="Content-Security-Policy"
-          content="default-src 'self'; img-src 'self' data:; script-src 'self'; style-src 'self';">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Deadlock API provides game data like images, stats, and more.">
     <meta name="keywords" content="Deadlock, API, Game, Data, Images, Stats, Heroes, Items, Weapons, Abilities">
@@ -18,7 +16,13 @@
     <link rel="icon" type="image/png" href="favicon.png"/>
 </head>
 <body>
-<header><h1>Deadlock API</h1></header>
+<header>
+    <h1>Deadlock API</h1>
+    <div title="Fetched Metadata">
+        <span class="highlight">Fetched Matches:</span>
+        <span id="api-stat-fetched-total">X.XXX.XXX</span> (Today: <span id="api-stat-fetched-today">XXX.XXX</span>)
+    </div>
+</header>
 <main>
     <div>
         <a href="https://assets.deadlock-api.com/" title="Deadlock Assets API" class="feature">
@@ -192,5 +196,7 @@
         </a>
     </div>
 </footer>
+
+<script src="script.js" defer async></script>
 </body>
 </html>
