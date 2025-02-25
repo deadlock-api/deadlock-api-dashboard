@@ -1,4 +1,4 @@
-fetch('https://analytics.deadlock-api.com/v1/info')
+fetch('https://api.deadlock-api.com/v1/info')
     .then(response => response.json())
     .then(data => {
         try {
